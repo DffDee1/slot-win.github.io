@@ -31,7 +31,7 @@ function preloadImages( images, callback ) {
 
     function _preload( asset ) {
 	asset.img = new Image();
-	asset.img.src = '../img/' + asset.id+'.png';
+	asset.img.src = 'img/' + asset.id+'.png';
 
 	asset.img.addEventListener("load", function() {
 	    _check();
